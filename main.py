@@ -4,13 +4,15 @@
 
 """
 
+
+
 text = input("Введите текст:")
 
 
-print ('Предложений:',count_sentens)
-print ('Слов:',count_words)
-print ('Слогов:',count_syllables)
-print ('Средняя длина предложения в словах:',ASL)
-print ('Средняя длина слова в слогах:',ASW)
-print ('Индекс удобочитаемости Флеша:',FRE)
+print ('Предложений:', count_sentens)
+print ('Слов:', count_words)
+print ('Слогов:', count_syllables)
+print ('Средняя длина предложения в словах:', ASL)
+print ('Средняя длина слова в слогах:', ASW)
+print ('Индекс удобочитаемости Флеша:', FRE)
 

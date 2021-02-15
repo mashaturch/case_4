@@ -1,5 +1,5 @@
 from main import text
-text = input()
+
 count_sentens = text.count('.') + text.count('!') + text.count('?')
 ASL = count_words/count_sentens
 count_words = text.count(" ") + 1

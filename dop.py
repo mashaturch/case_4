@@ -11,3 +11,4 @@ while k < len(text):
         count_syllables += 1
     k = k+1
 FRE = 206.835-(1.3*ASL)-(60.1*ASW)
+Print ()

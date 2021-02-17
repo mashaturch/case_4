@@ -2,8 +2,8 @@ from main import text
 
 count_sentens = text.count('.') + text.count('!') + text.count('?')
 count_words = text.count(" ") + 1
-ASL = count_words/count_sentens
-ASW = count_syllables/count_words
+ASL = float(count_words/count_sentens)
+ASW = float(count_syllables/count_words)
 count_syllables = 0
 k = 0
 while k < len(text):
@@ -13,4 +13,4 @@ while k < len(text):
 if (text[0] in 'ЙЦУКЕЁНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ'):
     FRE = 206.835-(1.3*ASL)-(60.1*ASW)
 else:
-    FRE = 206.835-1.015(count_words/count_sentens)-84.6(count_syllables/count_words)
+    FRE = 206.835-(1.015*ASL)-(84.6*ASW)

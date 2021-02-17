@@ -10,9 +10,9 @@ text = input("Введите текст:")
 
 
 print ('Предложений:', d.count_sentens)
-print ('Слов:', count_words)
-print ('Слогов:', count_syllables)
-print ('Средняя длина предложения в словах:', ASL)
-print ('Средняя длина слова в слогах:', ASW)
-print ('Индекс удобочитаемости Флеша:', FRE)
+print ('Слов:', d.count_words)
+print ('Слогов:', d.count_syllables)
+print ('Средняя длина предложения в словах:', d.ASL)
+print ('Средняя длина слова в слогах:', d.ASW)
+print ('Индекс удобочитаемости Флеша:', d.FRE)
 

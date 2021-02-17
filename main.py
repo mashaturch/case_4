@@ -9,7 +9,7 @@ import dop as d
 text = input("Введите текст:")
 
 
-print ('Предложений:', d.count_sentens)
+print ('Предложений:', count_sentens)
 print ('Слов:', count_words)
 print ('Слогов:', count_syllables)
 print ('Средняя длина предложения в словах:', ASL)

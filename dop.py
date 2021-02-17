@@ -3,8 +3,8 @@ from main import text
 count_sentens = text.count('.') + text.count('!') + text.count('?')
 count_words = text.count(" ") + 1
 ASL = count_words/count_sentens
-ASW = count_syllables/count_words
 count_syllables = 0
+ASW = count_syllables/count_words
 k = 0
 while k < len(text):
     if (text[k] in 'aeiouAEIOUауоиэыяюеёАУОИЭЫЯЮЕЁ'):

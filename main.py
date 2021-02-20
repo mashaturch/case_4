@@ -14,6 +14,7 @@ count_words = text.count(" ") + 1  #word count
 ASL = float(count_words/count_sentens)
 count_syllables = 0
 k = 0
+
 #number of syllables
 while k < len(text):
     if (text[k] in 'aeiouyAEIOUYауоиэыяюеёАУОИЭЫЯЮЕЁ'):
